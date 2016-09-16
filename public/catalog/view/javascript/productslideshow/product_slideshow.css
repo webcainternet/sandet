@@ -1,0 +1,15 @@
+
+.tm_product_slideshow .slideshow-product:before, .tm_product_slideshow .slideshow-product:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.tm_product_slideshow .slideshow-product:after {
+	clear: both; 
+}
+.tm_product_slideshow .caption {
+	overflow: hidden; 
+}
+
+
+

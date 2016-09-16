@@ -1,0 +1,16 @@
+2016-09-16 17:06:15 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/sandet/public/admin/controller/extension/installer.php on line 333
+2016-09-16 17:06:15 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/sandet/public/admin/controller/extension/installer.php on line 333
+2016-09-16 17:13:51 - PHP Notice:  Undefined variable: languages in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:13:51 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:13:53 - PHP Notice:  Undefined variable: languages in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:13:53 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:14:35 - PHP Notice:  Undefined variable: text_remove_marker in /Users/fernandomendes/github/sandet/public/admin/view/template/module/tm_progress_bars.tpl on line 107
+2016-09-16 17:14:35 - PHP Notice:  Undefined variable: text_remove_marker in /Users/fernandomendes/github/sandet/public/admin/view/template/module/tm_progress_bars.tpl on line 107
+2016-09-16 17:14:35 - PHP Notice:  Undefined variable: text_remove_marker in /Users/fernandomendes/github/sandet/public/admin/view/template/module/tm_progress_bars.tpl on line 107
+2016-09-16 17:14:35 - PHP Notice:  Undefined variable: text_remove_marker in /Users/fernandomendes/github/sandet/public/admin/view/template/module/tm_progress_bars.tpl on line 204
+2016-09-16 17:14:52 - PHP Notice:  Undefined variable: languages in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:14:52 - PHP Warning:  Invalid argument supplied for foreach() in /Users/fernandomendes/github/sandet/public/admin/view/template/module/olark.tpl on line 64
+2016-09-16 17:30:14 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/sandet/public/catalog/view/theme/theme660/template/module/tm_newsletter.tpl on line 4
+2016-09-16 17:30:14 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/sandet/public/catalog/view/theme/theme660/template/module/tm_parallax.tpl on line 6
+2016-09-16 17:30:14 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/sandet/public/catalog/view/theme/theme660/template/module/tm_newsletter.tpl on line 4
+2016-09-16 17:30:14 - PHP Notice:  Undefined variable: description in /Users/fernandomendes/github/sandet/public/catalog/view/theme/theme660/template/module/tm_parallax.tpl on line 6

@@ -1,0 +1,6 @@
+.newsletter .box-content {}
+.newsletter .dropdown-btn {}
+.newsletter .dropdown-btn i {}
+.newsletter-error, .newsletter-success { transition: .3s all ease; }
+.newsletter-error { color: #f34235; }
+.newsletter-success { color: #4bae4f; }
