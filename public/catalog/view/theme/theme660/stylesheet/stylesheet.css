@@ -2890,7 +2890,7 @@ header .sf-menu {
     header .sf-menu > li > a, header .sf-menu > li > span {
       font: bold 18px/22px "Roboto", sans-serif;
       color: #fff;
-      padding: 19px 30px 19px;
+      padding: 19px 20px 19px;
       background: #2957a4;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
