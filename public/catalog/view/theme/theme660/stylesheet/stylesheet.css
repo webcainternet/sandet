@@ -5483,7 +5483,8 @@ aside #blog-search {
   .parallax p {
     font: 400 16px/24px "Roboto", sans-serif; }
   .parallax .container {
-    color: #fff; }
+    color: #fff;
+    min-height: 370px; }
     .parallax .container h2 {
       margin-bottom: 39px; }
     .parallax .container h3 {
