@@ -14,7 +14,7 @@ $_['text_view'] = 'View All Products';
 $_['text_option']              = 'Available Options';
 $_['text_select']              = '--- Please Select ---';
 
-$_['text_category'] = 'Categories';
+$_['text_category'] = 'Categorias';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model'] = 'Model:';
 $_['text_availability'] = 'Availability:';

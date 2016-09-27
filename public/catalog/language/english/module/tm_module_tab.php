@@ -11,7 +11,7 @@ $_['text_tax'] = 'Ex Tax:';
 $_['text_sale'] = 'Sale!';
 $_['text_new'] = 'New!';
 
-$_['text_category'] = 'Categories';
+$_['text_category'] = 'Categorias';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model'] = 'Model:';
 $_['text_availability'] = 'Availability:';
