@@ -8,8 +8,8 @@ $_['heading_bestsellers'] = 'Bestsellers';
 
 // Text
 $_['text_tax'] = 'Ex Tax:';
-$_['text_sale'] = 'Sale!';
-$_['text_new'] = 'New!';
+$_['text_sale'] = 'Oferta!';
+$_['text_new'] = 'Novo!';
 
 $_['text_category'] = 'Categorias';
 $_['text_manufacturer'] = 'Brand:';

@@ -1,15 +1,15 @@
 <?php
 // Heading
 $_['heading_title'] = 'Tm Module Tabs';
-$_['heading_latest'] = 'New';
+$_['heading_latest'] = 'Novo';
 $_['heading_specials'] = 'Specials';
 $_['heading_featured'] = 'Featured';
 $_['heading_bestsellers'] = 'Bestsellers';
 
 // Text
 $_['text_tax'] = 'Ex Tax:';
-$_['text_sale'] = 'Sale!';
-$_['text_new'] = 'New!';
+$_['text_sale'] = 'Oferta!';
+$_['text_new'] = 'Novo!';
 $_['text_view'] = 'View All Products';
 $_['text_option']              = 'Available Options';
 $_['text_select']              = '--- Please Select ---';
