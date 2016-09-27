@@ -65,14 +65,14 @@
     <?php } ?>
 	
     </div>
-	<?php if ($bottom) { ?>
-		<section class="bottom"><?php echo $bottom; ?></section>
-	<?php } ?>
     <div class="copyright">
         <div class="container">
             <?php echo $powered; ?><!-- [[%FOOTER_LINK]] -->
         </div>
     </div>
+	<?php if ($bottom) { ?>
+		<section class="bottom"><?php echo $bottom; ?></section>
+	<?php } ?>
 </footer>
 <script src="catalog/view/theme/<?php echo $theme_path; ?>/js/livesearch.min.js" type="text/javascript"></script>
 <script src="catalog/view/theme/<?php echo $theme_path; ?>/js/script.js" type="text/javascript"></script>
