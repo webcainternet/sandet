@@ -381,13 +381,13 @@
 				$arr_last = $product['last_array'];
 				foreach( $arr_last as $value ){
 					if ($product['product_id']==$value) {  $i=1; ?>
-						<span class="new_pr"><span><?php echo $text_new; ?></span></span>
+						<span class="new_pr"><span>Novo</span></span>
 						<?php
 						}
 					}
 				?>
 				<?php if ($product['special'] and $i==0 ) { ?>
-						<span class="sale"><span><?php echo $text_sale; ?></span></span>
+						Oferta
 				<?php } ?>
 				<!-- -->
 				
