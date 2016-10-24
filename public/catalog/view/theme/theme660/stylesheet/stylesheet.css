@@ -4227,7 +4227,9 @@ aside #blog-search {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  padding: 80px 95px 0 100px; }
+  padding: 30px 95px 0 100px; 
+  background: #FFF;
+  border: solid 10px #2957a4; }
   .newsletter-popup:before, .newsletter-popup:after {
     display: table;
     content: "";
@@ -4235,22 +4237,22 @@ aside #blog-search {
   .newsletter-popup:after {
     clear: both; }
   .newsletter-popup a {
-    color: #fff; }
+    color: #000; }
     .newsletter-popup a:visited {
-      color: #fff; }
+      color: #000; }
     .newsletter-popup a:hover, .newsletter-popup a:focus, .newsletter-popup a:active {
       color: #ffe031; }
   .newsletter-popup h2 {
     text-transform: none;
-    color: #fff;
+    color: #000;
     margin: 0;
     letter-spacing: .5px; }
     .newsletter-popup h2 + p {
       margin: 39px 0 20px;
       font: 400 16px/24px "Roboto", sans-serif;
-      color: #fff; }
+      color: #000; }
   .newsletter-popup p {
-    color: #fff; }
+    color: #000; }
   .newsletter-popup .tm-login-form {
     position: relative;
     margin-top: 0; }
