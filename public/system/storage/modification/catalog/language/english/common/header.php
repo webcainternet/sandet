@@ -3,7 +3,7 @@
 $_['text_home']          = 'Home';
 $_['text_wishlist']      =  '<i class="fa fa-heart"></i> <b>Wishlist:</b><span>%s</span>' ;
 $_['text_shopping_cart'] = 'Shopping Cart';
-$_['text_category']      = 'Categories';
+$_['text_category']      = 'Categorias';
 $_['text_account']       = 'My Account';
 $_['text_register']      =  'Registration' ;
 $_['text_login']         =  'Sign In' ;
