@@ -4160,10 +4160,10 @@ aside #blog-search {
   transition: 0.3s all ease; }
 
 .newsletter-error {
-  color: #f7dbdd !important; }
+  color: #D4323D !important; }
 
 .newsletter-success {
-  color: #eef9ef !important; }
+  color: #55C65E !important; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .newsletter .tm-login-form input[type="text"] {
@@ -4368,7 +4368,9 @@ aside #blog-search {
   -moz-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   -webkit-transition: 0.3s all ease;
-  transition: 0.3s all ease; }
+  transition: 0.3s all ease;
+  bottom: 0px;
+  margin-top: 10px; }
 
 .newsletter-error {
   color: #D4323D; }
