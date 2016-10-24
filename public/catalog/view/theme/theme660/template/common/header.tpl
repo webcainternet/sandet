@@ -126,7 +126,7 @@
 								
 								<?php if ($top) { ?> <div class="top"><?php echo $top; ?></div> <?php } ?>
 								
-								<span class="phone"><i class="fa fa-phone"></i><a href="tel:<?php echo $telephone; ?>" ><?php echo $telephone; ?></a></span>
+								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
 								
 								<?php echo $cart; ?>
 							</div>
