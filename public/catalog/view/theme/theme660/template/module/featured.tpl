@@ -270,7 +270,7 @@
 								<span class="new_pr"><span>Novo</span></span>
 						<?php } } */ ?>
 						<?php if ($product['special'] and $i==0) {?>
-							Oferta				
+							<span class="new_pr"><span>Oferta</span></span>				
 						<?php } ?>			
 						<!-- -->
 						
