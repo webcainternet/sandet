@@ -130,6 +130,8 @@
 								<?php if ($top) { ?> <div class="top"><?php echo $top; ?></div> <?php } ?>
 								
 								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
+
+								<a href="<?php echo $wishlist; ?>" id="wishlist-total" class="button_wishlist"> <?php echo $text_wishlist; ?> </a>
 								
 								<?php echo $cart; ?>
 							</div>
