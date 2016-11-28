@@ -131,7 +131,19 @@
 								
 								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
 
-								<a href="<?php echo $wishlist; ?>" id="wishlist-total" class="button_wishlist"> <?php echo $text_wishlist; ?> </a>
+
+								<div class="box-cart">
+									<div id="cart" class="cart toggle-wrap">
+										<button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
+											<i class="fa fa-shopping-cart"></i>
+											<strong><?php echo $text_wishlist; ?></strong>
+											<span id="cart-total" class="cart-total"><?php echo $text_items; ?></span>
+											<?php if (isset($text_items2)) { ?>
+												<span id="cart-total2" class="cart-total2"><?php echo $text_items2; ?></span>
+											<?php } ?>
+										</button>
+									</div>
+								</div>
 								
 								<?php echo $cart; ?>
 							</div>
