@@ -6198,3 +6198,8 @@ footer {
   .delivery_page .table td,
   .delivery_page .table th {
     padding: 6px; } }
+
+
+.quickview {
+  display: none !important;
+}
