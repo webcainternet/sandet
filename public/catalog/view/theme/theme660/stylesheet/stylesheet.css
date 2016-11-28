@@ -1674,7 +1674,8 @@ section.bottom {
     .product-thumb .caption .btn-add {
       float: right; }
   .product-thumb .name {
-    min-height: 49px; }
+    min-height: 49px;
+    text-align: center; }
   .product-thumb .cart-button {
     display: inline-block;
     width: 100%;
