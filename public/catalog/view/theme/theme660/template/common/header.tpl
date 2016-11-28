@@ -135,12 +135,10 @@
 								<div class="box-cart">
 									<div id="cart" class="cart toggle-wrap">
 										<button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
-											<i class="fa fa-shopping-cart"></i>
+											<i class="fa fa-heart"></i>
 											<strong><?php echo $text_wishlist; ?></strong>
-											<span id="cart-total" class="cart-total"><?php echo $text_items; ?></span>
-											<?php if (isset($text_items2)) { ?>
-												<span id="cart-total2" class="cart-total2"><?php echo $text_items2; ?></span>
-											<?php } ?>
+											<span id="cart-total2" class="cart-total2"><strong><?php echo $text_wishlist; ?></strong></span>
+											
 										</button>
 									</div>
 								</div>
