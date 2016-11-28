@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://sandet.homolog.lojavirtual.digital/');
+define('HTTP_SERVER', 'http://loja.sandet.com.br/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://sandet.homolog.lojavirtual.digital/');
+define('HTTPS_SERVER', 'http://loja.sandet.com.br/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/public/catalog/');

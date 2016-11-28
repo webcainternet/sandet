@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://sandet.homolog.lojavirtual.digital/admin/');
-define('HTTP_CATALOG', 'http://sandet.homolog.lojavirtual.digital/');
+define('HTTP_SERVER', 'http://loja.sandet.com.br/admin/');
+define('HTTP_CATALOG', 'http://loja.sandet.com.br/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://sandet.homolog.lojavirtual.digital/admin/');
-define('HTTPS_CATALOG', 'http://sandet.homolog.lojavirtual.digital/');
+define('HTTPS_SERVER', 'http://loja.sandet.com.br/admin/');
+define('HTTPS_CATALOG', 'http://loja.sandet.com.br/');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/public/admin/');

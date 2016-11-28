@@ -1,7 +1,7 @@
 <?php
 // Text
 $_['text_home']          = 'Home';
-$_['text_wishlist']      =  '<i class="fa fa-heart"></i> <b>Wishlist:</b><span>%s</span>' ;
+$_['text_wishlist']      = 'Lista de Desejos (%s)';
 $_['text_shopping_cart'] = 'Shopping Cart';
 $_['text_category']      = 'Categorias';
 $_['text_account']       = 'My Account';

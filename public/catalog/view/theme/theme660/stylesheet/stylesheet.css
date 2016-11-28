@@ -5483,7 +5483,7 @@ aside #blog-search {
   font-size: 24px;
   line-height: 29px; }
   .parallax > div {
-    padding: 67px 0 30px; }
+    padding: 0px; }
   .parallax h2 {
     color: #fff; }
   .parallax p {
@@ -5502,7 +5502,7 @@ aside #blog-search {
       line-height: 26px; }
 
 div.parallax-1 {
-  padding: 130px 0;
+  padding: 0px 0;
   text-align: center; }
   div.parallax-1 .circle {
     display: inline-block;
