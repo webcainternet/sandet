@@ -263,12 +263,12 @@
 						</div><?php } ?>
 						
 						<!-- stickers -->
-						<?php $i=0; 
+						<?php /* $i=0; 
 							$arr_last = $product['last_array'];
 							foreach( $arr_last as $value ){
 								if ($product['product_id']==$value) {  $i=1; ?>
 								<span class="new_pr"><span>Novo</span></span>
-						<?php } } ?>
+						<?php } } */ ?>
 						<?php if ($product['special'] and $i==0) {?>
 							Oferta				
 						<?php } ?>			
