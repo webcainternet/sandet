@@ -14,7 +14,7 @@ $_['text_points']       = 'Reward Points:';
 $_['text_price']        = 'Price:';
 
 				$_['text_option']              = 'Available Options';
-				$_['text_select']              = '--- Please Select ---';
+				$_['text_select']              = '--- Selecione ---';
 				
 $_['text_tax']          = 'Ex Tax:';
 $_['text_compare']      = 'Product Compare (%s)';

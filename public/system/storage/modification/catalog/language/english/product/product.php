@@ -10,7 +10,7 @@ $_['text_stock']               = 'Availability:';
 $_['text_instock']             = 'In Stock';
 
 				$_['text_option']              = 'Available Options';
-				$_['text_select']              = '--- Please Select ---';
+				$_['text_select']              = '--- Selecione ---';
 				
 $_['text_tax']                 = 'Ex Tax:';
 $_['text_discount']            = ' or more ';

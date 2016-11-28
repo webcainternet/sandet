@@ -24,4 +24,4 @@ $_['button_details'] = 'Details';
 $_['reviews'] = 'reviews ';
 $_['text_product'] = 'Product {current} of {total} ';
 $_['text_option']              = 'Available Options';
-$_['text_select']              = '--- Please Select ---';
+$_['text_select']              = '--- Selecione ---';

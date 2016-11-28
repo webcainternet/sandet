@@ -12,7 +12,7 @@ $_['text_sale'] = 'Oferta!';
 $_['text_new'] = 'Novo!';
 $_['text_view'] = 'View All Products';
 $_['text_option']              = 'Available Options';
-$_['text_select']              = '--- Please Select ---';
+$_['text_select']              = '--- Selecione ---';
 
 $_['text_category'] = 'Categorias';
 $_['text_manufacturer'] = 'Brand:';
