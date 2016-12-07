@@ -23,5 +23,5 @@ $_['text_quick'] = 'Quick View';
 $_['button_details'] = 'Details';
 $_['reviews'] = 'reviews ';
 $_['text_product'] = 'Product {current} of {total} ';
-$_['text_option']              = 'Available Options';
+$_['text_option']              = 'Opções disponíveis';
 $_['text_select']              = '--- Selecione ---';

@@ -169,7 +169,7 @@
         <label class="control-label" for="input-payment-postcode"><?php echo $entry_postcode; ?></label>
         <input type="text" name="postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?>" id="input-payment-postcode" class="form-control" />
       </div>
-      <div class="form-group required">
+      <div class="form-group required" style="display: none;">
         <label class="control-label" for="input-payment-country"><?php echo $entry_country; ?></label>
         <select name="country_id" id="input-payment-country" class="form-control">
           <option value=""><?php echo $text_select; ?></option>

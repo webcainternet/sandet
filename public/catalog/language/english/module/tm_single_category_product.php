@@ -11,7 +11,7 @@ $_['text_tax'] = 'Ex Tax:';
 $_['text_sale'] = 'Oferta!';
 $_['text_new'] = 'Novo!';
 $_['text_view'] = 'View All Products';
-$_['text_option']              = 'Available Options';
+$_['text_option']              = 'Opções disponíveis';
 $_['text_select']              = '--- Selecione ---';
 
 $_['text_category'] = 'Categorias';
