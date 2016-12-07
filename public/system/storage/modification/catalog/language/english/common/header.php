@@ -34,3 +34,4 @@ $_['text_checkout']      = 'Checkout';
 				
 $_['text_search']        = 'Search';
 $_['text_all']           = 'Show All';
+$_['text_wishlist1']      = 'Lista de Desejos';

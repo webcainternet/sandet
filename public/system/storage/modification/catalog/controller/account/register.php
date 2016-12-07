@@ -454,6 +454,18 @@ class ControllerAccountRegister extends Controller {
 		return !$this->error;
 	}
 
+
+					public function estado_autocompletar() {
+						$this->load->model('localisation/zone');
+						$code = $this->model_localisation_zone->getZonesByEstado($this->request->get['estado']);
+						if ($code != '') {
+							$output = $code;
+						}else{
+							$output = '';
+						}
+						$this->response->setOutput($output);
+					}
+				
 	public function customfield() {
 		$json = array();
 
