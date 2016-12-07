@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+  <name>Oculta o país e estado no cálculo de frete no carrinho</name>
+  <code>oculta-pais-estado-carrinho</code>
+  <version>1.2</version>
+  <author>OpenCart Brasil</author>
+  <link>http://www.opencartbrasil.com.br</link>
+  <file path="catalog/view/theme/*/template/total/shipping.tpl">
+    <operation>
+      <search index="0"><![CDATA[<script type="text/javascript"><!--]]></search>
+      <add position="before"><![CDATA[<script type="text/javascript"><!--
+$('select[name="zone_id"]').parent().parent().hide();
+$('select[name="country_id"]').parent().parent().hide();
+//--></script>
+]]></add>
+    </operation>
+    <operation>
+      <search><![CDATA[data: 'country_id=' + $('select[name=\'country_id\']').val() + '&zone_id=' + $('select[name=\'zone_id\']').val() + '&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),]]></search>
+      <add position="replace"><![CDATA[        data: 'country_id=30&zone_id=0&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),]]></add>
+    </operation>
+  </file>
+</modification>

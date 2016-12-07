@@ -98,7 +98,7 @@ $_['button_apply']                  = 'Aplicar';
 // Tab
 $_['tab_address']                   = 'Endereço';
 $_['tab_admin']                     = 'Admin';
-$_['tab_attribute']                 = 'Atributos';
+$_['tab_attribute']                 = 'Especificações';
 $_['tab_customer']                  = 'Detalhes do cliente';
 $_['tab_data']                      = 'Dados';
 $_['tab_design']                    = 'Design';

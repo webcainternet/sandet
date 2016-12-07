@@ -136,9 +136,10 @@
 									<div id="cart" class="cart toggle-wrap">
 										<button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
 											<i class="fa fa-heart"></i>
+											<!--
 											<strong>Lista de desejos</strong>
 											<span id="cart-total2" class="cart-total2"><strong><?php echo $text_wishlist; ?></strong></span>
-											
+											-->
 										</button>
 									</div>
 								</div>
