@@ -58,8 +58,8 @@
 
                         <?php if ($fax) { ?>
                             <div class="col-sm-4">
-                                <div class="icon fa-fax">
-                                    <strong><?php echo $text_fax; ?></strong><br>
+                                <div class="icon fa-whatsapp">
+                                    <strong>WhatsApp</strong><br>
                                    <a href="tel:<?php echo $fax; ?>" class="phone-tx"> <?php echo $fax; ?></a>
                                 </div>
                             </div>
