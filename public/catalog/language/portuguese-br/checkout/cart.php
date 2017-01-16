@@ -29,7 +29,7 @@ $_['text_payment_cancel']      = '%s a cada %d %s(s) até ser cancelada';
 // Column
 $_['column_image']             = 'Imagem';
 $_['column_name']              = 'Produto';
-$_['column_model']             = 'Modelo';
+$_['column_model']             = 'Categoria';
 $_['column_quantity']          = 'Quantidade';
 $_['column_price']             = 'Preço';
 $_['column_total']             = 'Total';
