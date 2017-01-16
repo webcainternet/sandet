@@ -6217,3 +6217,9 @@ footer {
       padding-top: 140px;
   }
 }
+
+
+
+.new_pr {
+  display: none !important;
+}
