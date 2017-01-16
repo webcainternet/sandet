@@ -17,7 +17,7 @@ $_['text_amount']            = 'Valor fixo';
 
 // Column
 $_['column_name']            = 'Produto';
-$_['column_model']           = 'Modelo';
+$_['column_model']           = 'Categoria';
 $_['column_image']           = 'Imagem';
 $_['column_price']           = 'Preço';
 $_['column_quantity']        = 'Quantidade';
@@ -31,7 +31,7 @@ $_['entry_meta_title'] 	     = 'Meta título';
 $_['entry_meta_keyword'] 	 = 'Meta palavras-chave';
 $_['entry_meta_description'] = 'Meta descrição';
 $_['entry_keyword']          = 'URL amigável';
-$_['entry_model']            = 'Modelo';
+$_['entry_model']            = 'Categoria';
 $_['entry_sku']              = 'SKU';
 $_['entry_upc']              = 'Código de barras';
 $_['entry_ean']              = 'EAN';

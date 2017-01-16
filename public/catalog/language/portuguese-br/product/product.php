@@ -3,7 +3,7 @@
 $_['text_search']              = 'Pesquisar';
 $_['text_brand']               = 'Marca';
 $_['text_manufacturer']        = 'Marca:';
-$_['text_model']               = 'Modelo:';
+$_['text_model']               = 'Categoria:';
 $_['text_reward']              = 'Pontos:';
 $_['text_points']              = 'Pontos necessários:';
 $_['text_stock']               = 'Disponibilidade:';
