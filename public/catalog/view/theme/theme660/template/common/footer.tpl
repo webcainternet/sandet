@@ -51,6 +51,7 @@
 					} ?>
 					</p></li>
 					<li><i class="fa fa-phone"></i><a href="tel:<?php echo $telephone; ?>"><?php echo $telephone; ?></a></li>
+                    <li><i class="fa fa-whatsapp"></i><a href="tel:<?php echo $fax; ?>"><?php echo $fax; ?></a></li>
 					<li><i class="fa fa-envelope-o"></i><a href="mailto:<?php echo $email; ?>" ><?php echo $email; ?></a></li>
 					</ul>
                     <div class="social-block"> </div>
