@@ -134,13 +134,16 @@
 
 								<div class="box-cart">
 									<div id="cart" class="cart toggle-wrap">
-										<a href="/index.php?route=account/wishlist"><button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
-											<i class="fa fa-heart"></i>
-											<!--
-											<strong>Lista de desejos</strong>
-											<span id="cart-total2" class="cart-total2"><strong><?php echo $text_wishlist; ?></strong></span>
-											-->
-										</button></a>
+										
+										<button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
+											<a href="/index.php?route=account/wishlist">
+												<i class="fa fa-heart"></i>
+												<!--
+												<strong>Lista de desejos</strong>
+												<span id="cart-total2" class="cart-total2"><strong><?php echo $text_wishlist; ?></strong></span>
+												-->
+											</a>
+										</button>
 									</div>
 								</div>
 								
