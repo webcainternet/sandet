@@ -6236,7 +6236,7 @@ footer {
       top: -20px;
   }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .topmenu1 {
       display: none;
   }
