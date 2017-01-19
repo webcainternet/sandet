@@ -135,7 +135,7 @@
 
 
 					          <a href="/index.php?route=account/account">Minha Conta</a> | 
-					          <a href="/index.php?route=information/information&information_id=4">Quem Somos</a> | 
+					          <a href="/index.php?route=information/information&information_id=12">Quem Somos</a> | 
 					          <a href="/index.php?route=information/contact">Contato</a>
 					        </div>
 
@@ -150,7 +150,7 @@
 					        <?php } ?>
 
 					      </div>
-							
+
 							<div class="pull-right">
 								
 								<?php if ($top) { ?> <div class="top"><?php echo $top; ?></div> <?php } ?>
