@@ -125,11 +125,39 @@
 								
 							</div>
 							
+
+							<div class="topmenu1">
+					      	<?php if ($logged) { ?>
+
+					        <div style="float: right; text-align: right;">
+					          Olá <a href="/index.php?route=account/account"><?php echo $customer_firstname; ?></a> (<a href="<?php echo $logout; ?>"><?php echo $text_logout; ?></a>)</a> | 
+
+
+
+					          <a href="/index.php?route=account/account">Minha Conta</a> | 
+					          <a href="/index.php?route=information/information&information_id=4">Quem Somos</a> | 
+					          <a href="/index.php?route=information/contact">Contato</a>
+					        </div>
+
+					        <?php } else { ?>
+
+					        <div style="float: right; text-align: right;">
+					          <a href="/index.php?route=account/account">Acessar Minha Conta</a> | 
+					          <a href="/index.php?route=information/information&information_id=12">Quem Somos</a> | 
+					          <a href="/index.php?route=information/contact">Contato</a>
+					        </div>
+
+					        <?php } ?>
+
+					      </div>
+							
 							<div class="pull-right">
 								
 								<?php if ($top) { ?> <div class="top"><?php echo $top; ?></div> <?php } ?>
 								
 								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
+
+								<span class="phone"><i class="fa fa-whatsapp"></i>(17) 2139-7777</span>
 
 
 								<div class="box-cart">

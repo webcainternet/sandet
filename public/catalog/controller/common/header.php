@@ -83,7 +83,9 @@ class ControllerCommonHeader extends Controller {
 		$data['shopping_cart'] = $this->url->link('checkout/cart');
 		$data['checkout'] = $this->url->link('checkout/checkout', '', 'SSL');
 		$data['contact'] = $this->url->link('information/contact');
+		
 		$data['telephone'] = $this->config->get('config_telephone');
+		$data['fax'] = $this->config->get('config_fax');
 
 		$status = true;
 

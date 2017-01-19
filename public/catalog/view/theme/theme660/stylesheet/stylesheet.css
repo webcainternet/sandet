@@ -628,7 +628,7 @@ header {
     background: #fff; }
   header .phone {
     display: inline-block;
-    margin: 14px 0 0 113px;
+    margin: 14px 0 0 14px;
     line-height: 19px;
     font-weight: 400;
     font-size: 18px;
@@ -1450,8 +1450,13 @@ section.bottom {
       -o-transition: 0.3s all ease;
       -webkit-transition: 0.3s all ease;
       transition: 0.3s all ease; }
+    
     .cart > button i {
-      vertical-align: top; }
+      vertical-align: top; color: #000;}
+
+    .cart > button:hover i {
+      vertical-align: top; color: #fff;}
+
     .cart > button strong, .cart > button .cart-total {
       display: none; }
     .cart > button .cart-total2 {
@@ -6221,4 +6226,18 @@ footer {
 
 .new_pr {
   display: none !important;
+}
+
+
+
+  .topmenu1 {
+      position: relative;
+      right: 0px;
+      top: -20px;
+  }
+
+@media (min-width: 768px) {
+  .topmenu1 {
+      display: none;
+  }
 }
