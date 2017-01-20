@@ -1,4 +1,11 @@
 <?php echo $header; ?>
+
+<style type="text/css">
+	input[type="radio"] {
+      display: block !important;
+  }
+</style>
+
 <div class="container">
 	<ul class="breadcrumb">
 		<?php foreach ($breadcrumbs as $breadcrumb) { ?>
