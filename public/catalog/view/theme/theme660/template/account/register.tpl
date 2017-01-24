@@ -249,6 +249,15 @@
             </div>
           </div>
           <div class="form-group required">
+            <label class="col-sm-3 control-label" for="input-postcode"><?php echo $entry_postcode; ?></label>
+            <div class="col-sm-9">
+              <input type="text" name="postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?>" id="input-postcode" class="form-control" />
+              <?php if ($error_postcode) { ?>
+              <div class="text-danger"><?php echo $error_postcode; ?></div>
+              <?php } ?>
+            </div>
+          </div>
+          <div class="form-group required">
             <label class="col-sm-3 control-label" for="input-address-1"><?php echo $entry_address_1; ?></label>
             <div class="col-sm-9">
               <input type="text" name="address_1" value="<?php echo $address_1; ?>" placeholder="<?php echo $entry_address_1; ?>" id="input-address-1" class="form-control" />
@@ -269,15 +278,6 @@
               <input type="text" name="city" value="<?php echo $city; ?>" placeholder="<?php echo $entry_city; ?>" id="input-city" class="form-control" />
               <?php if ($error_city) { ?>
               <div class="text-danger"><?php echo $error_city; ?></div>
-              <?php } ?>
-            </div>
-          </div>
-          <div class="form-group required">
-            <label class="col-sm-3 control-label" for="input-postcode"><?php echo $entry_postcode; ?></label>
-            <div class="col-sm-9">
-              <input type="text" name="postcode" value="<?php echo $postcode; ?>" placeholder="<?php echo $entry_postcode; ?>" id="input-postcode" class="form-control" />
-              <?php if ($error_postcode) { ?>
-              <div class="text-danger"><?php echo $error_postcode; ?></div>
               <?php } ?>
             </div>
           </div>
