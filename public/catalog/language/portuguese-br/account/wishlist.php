@@ -15,7 +15,7 @@ $_['text_empty']    = 'Você ainda não adicionou itens a sua lista de desejos.'
 // Column
 $_['column_image']  = 'Imagem';
 $_['column_name']   = 'Produto';
-$_['column_model']  = 'Modelo';
+$_['column_model']  = 'Categoria';
 $_['column_stock']  = 'Estoque';
 $_['column_price']  = 'Preço';
 $_['column_action'] = 'Ação';
