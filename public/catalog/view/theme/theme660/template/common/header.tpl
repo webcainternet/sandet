@@ -157,22 +157,50 @@
 								
 								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
 
-								<span class="phone"><i class="fa fa-whatsapp"></i>(17) 2139-7777</span>
+								<span class="phone"><i class="fa fa-whatsapp"></i><?php echo $fax; ?></span>
 
+								<style type="text/css">
+									@media (max-width: 768px) {
+										header .box-wish {
+										    margin: 0 3px 0 10px;
+										    vertical-align: top;
+										}
+										.box-wish {
+											display: none !important;
+										}
+									}
+									.box-wish {
+									    position: relative;
+									    display: inline-block;
+									    margin-left: 15px;
+									}
+									.wish {
+									    position: relative;
+									}
+									.wishcss {
+										background: #ffe031;
+										width: 50px;
+										height: 50px;
+										padding: 25px 18px;
+										border-radius: 50%;
+										color: #000;
+									}
+									.wishcss:hover {
+									    background: #2957a4;
+									    width: 50px;
+									    height: 50px;
+									    padding: 25px 18px;
+									    border-radius: 50%;
+									    color: #FFF;
+									}
+								</style>
 
-								<div class="box-cart">
-									<div id="cart" class="cart toggle-wrap">
-										
-										<button type="button" data-loading-text="<?php echo $text_loading; ?>" class="toggle">
-											<a href="/index.php?route=account/wishlist">
-												<i class="fa fa-heart"></i>
-												<!--
-												<strong>Lista de desejos</strong>
-												<span id="cart-total2" class="cart-total2"><strong><?php echo $text_wishlist; ?></strong></span>
-												-->
-											</a>
-										</button>
-									</div>
+								<div class="box-wish">
+									<a href="/index.php?route=account/wishlist">
+										<div id="wish" class="wish wishcss toggle-wrap">
+											<i class="fa fa-heart"></i>
+										</div>
+									</a>
 								</div>
 								
 								<?php echo $cart; ?>
