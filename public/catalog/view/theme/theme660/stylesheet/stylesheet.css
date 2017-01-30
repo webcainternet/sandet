@@ -6242,3 +6242,9 @@ footer {
       display: none;
   }
 }
+
+
+
+.header__top .pull-right {
+  margin-top: 10px;
+}
