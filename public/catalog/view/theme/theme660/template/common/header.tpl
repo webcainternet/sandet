@@ -157,7 +157,9 @@
 								
 								<span class="phone"><i class="fa fa-phone"></i><?php echo $telephone; ?></span>
 
+								<?php if ($fax) { ?>
 								<span class="phone"><i class="fa fa-whatsapp"></i><?php echo $fax; ?></span>
+								<?php } ?>
 
 								<style type="text/css">
 									@media (max-width: 768px) {
