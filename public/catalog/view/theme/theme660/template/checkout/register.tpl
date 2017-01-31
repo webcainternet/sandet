@@ -184,7 +184,34 @@
       </div>
       <div class="form-group required">
         <label class="control-label" for="input-payment-zone"><?php echo $entry_zone;; ?></label>
-        <select name="zone_id" id="input-payment-zone" class="form-control">
+         <select name="zone_id" id="input-payment-zone" class="form-control">
+          <option value="440">Acre</option>
+          <option value="441">Alagoas</option>
+          <option value="442">Amapá</option>
+          <option value="443">Amazonas</option>
+          <option value="444">Bahia</option>
+          <option value="445">Ceará</option>
+          <option value="446">Distrito Federal</option>
+          <option value="447">Espírito Santo</option>
+          <option value="448">Goiás</option>
+          <option value="449">Maranhão</option>
+          <option value="450">Mato Grosso</option>
+          <option value="451">Mato Grosso do Sul</option>
+          <option value="452">Minas Gerais</option>
+          <option value="453">Pará</option>
+          <option value="454">Paraíba</option>
+          <option value="455">Paraná</option>
+          <option value="456">Pernambuco</option>
+          <option value="457">Piauí</option>
+          <option value="458">Rio de Janeiro</option>
+          <option value="459">Rio Grande do Norte</option>
+          <option value="460">Rio Grande do Sul</option>
+          <option value="461">Rondônia</option>
+          <option value="462">Roraima</option>
+          <option value="463">Santa Catarina</option>
+          <option value="464" selected="selected">São Paulo</option>
+          <option value="465">Sergipe</option>
+          <option value="466">Tocantins</option>
         </select>
       </div>
       <?php foreach ($custom_fields as $custom_field) { ?>
