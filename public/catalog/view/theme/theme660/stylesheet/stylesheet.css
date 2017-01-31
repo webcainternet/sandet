@@ -6250,7 +6250,7 @@ footer {
 }
 
 
-#input-payment-zone {
+#input-payment-zone, #input-zone, #input-country {
   background: whitesmoke;
   border-radius: 0px;
   height: 40px;

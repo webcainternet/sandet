@@ -18,6 +18,11 @@
         <div id="content" class="<?php echo $class; ?> contact_page">
             <h1 class="no-line"><?php echo $heading_title; ?></h1>
             <?php echo $content_top; ?>
+
+            <div class="panel panel-default">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3729.4200575048503!2d-49.41556234969425!3d-20.81473748604659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdad9b959ac1a1%3A0x7d83ca5f29481cc9!2sR.+Augusto+Vulpini%2C+260+-+Distrito+Industrial%2C+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP%2C+15035-630!5e0!3m2!1spt-BR!2sbr!4v1485879253814" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="row">
@@ -47,11 +52,12 @@
                             <div class="icon material-design-home149">
                             <strong><?php echo $store; ?></strong><br/>
                             <address>
-								<?php if ($geocode) { ?>
+								<?php /* if ($geocode) { ?>
 									<a href="//maps.google.com/maps?ll=<?php echo $geocode; ?>&z=14&t=m&hl=en-US&gl=US&mapclient=apiv3" target="_blank"><?php echo $address; ?> </a> 
 								<?php } else { 
 									?> <?php echo $address; ?><?php 
-								} ?>
+								} */ ?>
+                                <?php echo $address; ?><
                             </address>
                             </div>
                         </div>
